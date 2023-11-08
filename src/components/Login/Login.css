@@ -1,3 +1,4 @@
+/** Responsible for wrapping the entire code */
 .container {
     display: flex;
     flex-direction: column;
@@ -7,6 +8,8 @@
     background: #fff;
     padding-bottom: 30px;
 }
+
+/** Linked with text, and underline */
 .header {
     display: flex;
     flex-direction: column;
@@ -15,17 +18,21 @@
     width: 100%;
     margin-top: 30px;
 }
+/** Linked with header, and underline */
 .text {
     color: #3c009d;
     font-size: 48px;
     font-weight: 700; 
 }
+/** Linked with text, and header */
 .underline {
     width: 61px;
     height: 6px;
     background: #3c009d;
     border-radius: 9px;
 }
+
+/** CSS for inputs */
 .inputs {
     margin-top: 55px;
     display: flex;
@@ -53,6 +60,7 @@
     color: #797979;
     font-size: 19px;
 }
+/** Forgot Password text CSS */
 .forgot-password {
     padding-left: 62px;
     margin-top: 27px;
@@ -63,6 +71,8 @@
     color: #4c00b4;
     cursor: pointer;
 }
+
+/** Submit Boxes CSS*/
 .submit-container {
     display: flex;
     gap: 30px;
